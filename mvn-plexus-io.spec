@@ -4,7 +4,7 @@
 #
 Name     : mvn-plexus-io
 Version  : 2.0.2
-Release  : 5
+Release  : 6
 URL      : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
 Source0  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
 Source1  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.10/plexus-io-2.0.10.jar
@@ -22,16 +22,18 @@ Source12  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.8/p
 Source13  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.0.8/plexus-io-2.0.8.pom
 Source14  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.jar
 Source15  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.pom
-Source16  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
-Source17  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
-Source18  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
-Source19  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
-Source20  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.0.0/plexus-io-3.0.0.jar
-Source21  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.0.0/plexus-io-3.0.0.pom
-Source22  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.0.1/plexus-io-3.0.1.jar
-Source23  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.0.1/plexus-io-3.0.1.pom
-Source24  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.1.0/plexus-io-3.1.0.jar
-Source25  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.1.0/plexus-io-3.1.0.pom
+Source16  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.3.2/plexus-io-2.3.2.jar
+Source17  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.3.2/plexus-io-2.3.2.pom
+Source18  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
+Source19  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
+Source20  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
+Source21  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
+Source22  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.0.0/plexus-io-3.0.0.jar
+Source23  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.0.0/plexus-io-3.0.0.pom
+Source24  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.0.1/plexus-io-3.0.1.jar
+Source25  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.0.1/plexus-io-3.0.1.pom
+Source26  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.1.0/plexus-io-3.1.0.jar
+Source27  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.1.0/plexus-io-3.1.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -104,35 +106,41 @@ cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/pl
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.1.3
 cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.4
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.3.2
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.3.2/plexus-io-2.3.2.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.3.2
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.3.2/plexus-io-2.3.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.4
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.4
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.7.1
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.7.1
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.0
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.0/plexus-io-3.0.0.jar
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.0/plexus-io-3.0.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.0
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.0/plexus-io-3.0.0.pom
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.0/plexus-io-3.0.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.1
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.1/plexus-io-3.0.1.jar
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.1/plexus-io-3.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.1
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.1/plexus-io-3.0.1.pom
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.0.1/plexus-io-3.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.1.0
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.1.0/plexus-io-3.1.0.jar
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.1.0/plexus-io-3.1.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.1.0
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.1.0/plexus-io-3.1.0.pom
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/3.1.0/plexus-io-3.1.0.pom
 
 
 %files
@@ -156,6 +164,8 @@ cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/pl
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.0.8/plexus-io-2.0.8.pom
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.jar
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.pom
+/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.3.2/plexus-io-2.3.2.jar
+/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.3.2/plexus-io-2.3.2.pom
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
